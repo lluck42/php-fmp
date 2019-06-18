@@ -22,4 +22,4 @@ RUN docker-php-ext-configure gd \
     && docker-php-ext-install gd
 
 # mysqli
-RUN docker-php-ext-install mysqli
+RUN docker-php-ext-install mysqli pdo pdo_mysql
